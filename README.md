@@ -1,0 +1,2 @@
+# colorful
+Colorful.inc のコーポレートサイトです。
