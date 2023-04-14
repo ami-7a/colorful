@@ -1,0 +1,111 @@
+.reason{
+  width: 50%;
+  margin: 15vh auto;
+}
+
+/*コンテンツごとのタイトル*/
+.txt h3{
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: .2vh;
+}
+
+.txt .jp-title{
+  font-size: 0.9rem;
+}
+
+/*コンテンツ内のそれぞれテキスト*/
+.txt .long-txt{
+  margin-top: 2vh;
+  line-height: 7vh;
+}
+
+/* 流動する丸 */
+.fluid-1{
+  width: 60vh;/*横幅*/
+  height: 50vh;/*縦幅*/
+  background:#f1cecea9;
+  animation: fluidrotate 30s ease 0s infinite;/*アニメーション設定*/
+  position: absolute;
+  top: 120vh;
+  right: 60%;
+  z-index: -10; /* 要素を後ろへ */
+}
+
+.fluid-2{
+  width: 30vh;/*横幅*/
+  height: 30vh;/*縦幅*/
+  background:#f1cecea9;
+  animation: fluidrotate 30s ease 0s infinite;/*アニメーション設定*/
+  position: absolute;
+  top: 200vh;
+  right: 20%;
+  z-index: -10; /* 要素を後ろへ */
+}
+
+.fluid-3{
+  width: 25vh;/*横幅*/
+  height: 20vh;/*縦幅*/
+  background:#f1cecea9;
+  animation: fluidrotate 30s ease 0s infinite;/*アニメーション設定*/
+  position: absolute;
+  top: 230vh;
+  right:  62%;
+  z-index: -10; /* 要素を後ろへ */
+}
+
+@keyframes fluidrotate { 
+ 
+	  
+  0%, 100% {
+      border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+  }
+  14% {
+      border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+  }
+  28% {
+      border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+  }
+  42% {
+      border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+  }
+  56% {
+      border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+  }
+  70% {
+      border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+  }
+  84% {
+      border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+  }
+	  
+}
+
+@media screen and (max-width: 1024px){
+  .reason{
+    width: 80%;
+  }
+  
+  /*コンテンツごとのタイトル*/
+  .txt h3{
+    font-size: 1.5rem;
+  }
+  
+  .txt .jp-title{
+    font-size: 0.8rem;
+  }
+  
+  /*コンテンツ内のそれぞれテキスト*/
+  .txt .long-txt{
+    margin-top: 3vh;
+  }
+  
+  /* 流動する丸 */
+  .fluid-2{
+    width: 15vh;/*横幅*/
+    height: 15vh;/*縦幅*/
+    top: 190vh;
+    right: 1vw;
+  }
+  
+}

@@ -1,0 +1,110 @@
+
+.introduction{
+  height: auto;
+  width: 100%;
+  display: flex;
+  padding:12%;
+}
+
+.ceo-img{
+  width: 30%;
+}
+
+.ceo-img img{
+  width: 15vw;
+  height: 35vh;
+  object-fit: cover;
+  box-shadow: -10px 10px 10px rgb(71, 71, 71);
+  margin-left: 8vw;
+}
+
+.about-ceo{
+  width: 70%;
+}
+
+.ceo-name{
+  font-size: 3rem;
+  font-family: 'WindSong', cursive;
+  margin: 3vh auto 2vh;
+}
+
+.ceo-comment{
+  width: 70%;
+  margin: 3vh auto;
+  line-height: 4vh;
+}
+
+.center-comment{
+  font-size: 2.5rem;
+  padding: 7vh 0vw;
+  font-family: 'WindSong', cursive;
+  background: linear-gradient(45deg, #e1d7ce 0%, #e1d7ce 50%, #c7b5b6 50%, #c7b5b6 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.txt-3{
+  display: flex;
+  width: 90%;
+  margin: 10vh auto 8vh;
+}
+
+.txt-3 .txt{
+  width: 30%;
+  margin: 0 auto;
+}
+
+.txt .txt-title{
+  font-size: 1.3rem;
+}
+
+.txt .long-txt{
+  width: 80%;
+  margin: 3vh auto 0vh;
+  line-height: 4vh;
+}
+
+@media screen and (max-width:1024px){
+
+  .introduction{
+    flex-direction: column;
+    margin: 7vh auto;
+  }
+  
+  .ceo-img{
+    width: 100%;
+  }
+  
+  .ceo-img img{
+    width: 40vw;
+    height: 30vh;
+    margin-left: 0vw;
+  }
+  
+  .about-ceo{
+    width: 100%;
+  }
+  
+  .ceo-name{
+    font-size: 2.5rem;
+    margin: 5vh auto 2vh;
+  }
+
+  .center-comment{
+    font-size: 2rem;
+    padding: 5vh 0vw;
+  }
+  
+  .txt-3{
+    flex-direction: column;
+  }
+  
+  .txt-3 .txt{
+    width: 100%;
+    margin: 7vh auto;
+  }
+  
+ 
+}

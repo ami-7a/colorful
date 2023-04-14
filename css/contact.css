@@ -1,0 +1,105 @@
+
+
+.fa-envelope{
+  margin-left: 1vw;
+}
+
+.form{
+  background-color: #f7ede5;
+  width: 60vw;
+  height: 70vh;
+  margin: 2vh auto 12vh;
+  padding: 3%;
+  text-align: left;
+}
+
+.form-center{
+  width: 70%;
+  margin-left: 12vw;
+}
+
+/* インプット3つ共通 */
+input{
+  width: 30vw;
+  border-bottom: 1px solid #1a1c1e;
+  margin: 2vh auto;
+}
+
+/* テキストエリア */
+textarea{
+  width: 30vw;
+  border-bottom: 1px solid #1a1c1e;
+  padding-top: 1vw;
+}
+
+.txt-area p{
+  margin-top: 2vh;
+}
+
+.sent-btn{
+  background-color: #423a34;
+  color: #fffefd;
+  text-align: center;
+  border-radius: 25px;
+  padding: 2%;
+  width: 10vw;
+  margin: 3vh 0vw 3vh 10vw;
+  cursor: pointer;
+}
+
+.sent-btn:hover{
+  background-color: #fffefdad;
+  color: #423a34;
+  transition: .5s;
+}
+
+/* オート入力した時の背景色調整 */
+input:-webkit-autofill {
+  box-shadow: 0 0 0 1000px #f7ede5 inset;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:599px){
+
+  .form{
+    width: 90vw;
+    height: auto;
+    margin: 5vh auto 30vh;
+    padding: 10%;
+  }
+  
+  .form-center{
+    width: 75vw;
+    margin-right: 0vw;
+    font-size: .8rem;
+  }
+  
+  /* インプット3つ共通 */
+  input{
+    width: 70vw;
+  }
+  
+  /* テキストエリア */
+  textarea{
+    width: 70vw;
+  }
+  
+  .sent-btn{
+    width: 25vw;
+    margin-left: 23vw;
+    cursor: pointer;
+  }
+  
+  
+}
